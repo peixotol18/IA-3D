@@ -19,7 +19,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 2",
+        enunciado: "Você acha que a IA afeta na educação?",
         alternativas: [
             {
                 texto: "Sim",
@@ -32,7 +32,7 @@ const perguntas = [
         ]
     },
     {
-        enunciado: "Pergunta 3",
+        enunciado: "Você usa a IA com frequência?",
         alternativas: [
             {
                 texto: "Sim",
@@ -69,9 +69,9 @@ function mostraAlternativas() {
     }
 }
 function respostaSelecionada(opcaoSelecionada){
-    const afirmacoes = opcaoSelecionada.afirmativa;
-    respostas = afirmacoes; respostas = respostas=afirmativa;
-    respostas = afirmacoes;
+    const afirmativa = opcaoSelecionada.afirmativa;
+    respostas = afirmativa; respostas = respostas=afirmativa;
+    respostas += afirmativa + "";
     posicao++;
     mostraPergunta();
 }
